@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "check:server": "npm --prefix server run check",
+    "start:server": "npm --prefix server start"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1"
+  }
+}
